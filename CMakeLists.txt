@@ -10,7 +10,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/CMakeModules)
 find_package(Git REQUIRED)
 
 include(FindLibraries)
-# include(Version)
+include(Version)
 include(Options)
 include(TargetOsAndCpu)
 
